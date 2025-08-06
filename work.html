@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Work - Innovatech Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Innovatech Logo"></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="work.html" class="nav-link">Our Work</a></li>
+                <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="purchase.html" class="btn btn-primary">Get a Quote</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-header container section-padding">
+        <h1 class="section-title">Our Portfolio</h1>
+        <p class="section-subtitle">A selection of projects that we're proud of.</p>
+        
+        <div class="work-grid">
+            <div class="work-card animate-on-scroll" data-title="E-Commerce Platform for a US Retailer" data-description="A fully responsive Shopify-based e-commerce site with custom theme development and app integrations, leading to a 40% increase in online sales." data-image="images/work1.jpg">
+                <img src="images/work1.jpg" alt="Project 1">
+                <div class="work-card-overlay">
+                    <h3>US E-Commerce Site</h3>
+                    <p>Click to view details</p>
+                </div>
+            </div>
+            <div class="work-card animate-on-scroll" data-title="Corporate Website for a UK Law Firm" data-description="A professional, secure, and fast-loading website built on WordPress, featuring a client portal and an extensive legal blog." data-image="images/work2.jpg">
+                <img src="images/work2.jpg" alt="Project 2">
+                <div class="work-card-overlay">
+                    <h3>UK Corporate Site</h3>
+                    <p>Click to view details</p>
+                </div>
+            </div>
+            <div class="work-card animate-on-scroll" data-title="Portfolio Website for a Canadian Artist" data-description="A visually-driven, minimalist portfolio site with smooth animations and a gallery system to showcase high-resolution artwork." data-image="images/work3.jpg">
+                <img src="images/work3.jpg" alt="Project 3">
+                 <div class="work-card-overlay">
+                    <h3>Canadian Portfolio</h3>
+                    <p>Click to view details</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    
+    <div id="workModal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">×</span>
+            <img id="modalImage" src="" alt="Project Image">
+            <h3 id="modalTitle"></h3>
+            <p id="modalDescription"></p>
+        </div>
+    </div>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Innovatech Solutions. All Rights Reserved.</p>
+            <p>Jaipur, Rajasthan, India | <a href="mailto:contact@innovatech.com">contact@innovatech.com</a></p>
+        </div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>

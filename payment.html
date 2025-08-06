@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment - Innovatech Solutions</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="container">
+            <a href="index.html" class="logo"><img src="images/logo.png" alt="Innovatech Logo"></a>
+            <ul class="nav-links">
+                <li><a href="index.html" class="nav-link">Home</a></li>
+                <li><a href="services.html" class="nav-link">Services</a></li>
+                <li><a href="work.html" class="nav-link">Our Work</a></li>
+                <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+                <li><a href="contact.html" class="nav-link">Contact</a></li>
+                <li><a href="purchase.html" class="btn btn-primary">Get a Quote</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="page-header container section-padding">
+        <h1 class="section-title">Choose Your Payment Method</h1>
+        <p class="section-subtitle">We offer flexible payment options for your convenience. Please select a method to proceed.</p>
+        
+        <div class="payment-options">
+            <div class="payment-card animate-on-scroll" id="paypal-btn">
+                <img src="https://www.paypalobjects.com/webstatic/mktg/logo-center/PP_Acceptance_Marks_for_LogoCenter_100x63.png" alt="PayPal Logo">
+                <h3>PayPal</h3>
+                <p>Pay securely with your PayPal account or credit card.</p>
+            </div>
+            <div class="payment-card animate-on-scroll" id="razorpay-btn">
+                <img src="https://razorpay.com/assets/razorpay-logo.svg" alt="Razorpay Logo" style="height: 50px; object-fit: contain;">
+                <h3>Razorpay</h3>
+                <p>Ideal for various payment methods including UPI and cards.</p>
+            </div>
+            <div class="payment-card animate-on-scroll" id="crypto-btn">
+                <div class="crypto-icons">
+                    <i class="fab fa-btc"></i>
+                    <i class="fab fa-ethereum"></i>
+                </div>
+                <h3>Cryptocurrency</h3>
+                <p>Pay with Bitcoin (BTC) or Ethereum (ETH).</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2025 Innovatech Solutions. All Rights Reserved.</p>
+            <p>Jaipur, Rajasthan, India | <a href="mailto:contact@innovatech.com">contact@innovatech.com</a></p>
+        </div>
+    </footer>
+
+    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
